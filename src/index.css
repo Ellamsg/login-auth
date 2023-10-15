@@ -1,0 +1,80 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  
+
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.input{
+
+  @apply h-[38px]  lg:w-[420px] w-[100%]
+
+}
+
+.inputs{
+
+  @apply h-[38px]  lg:w-[370px] w-[100%]
+
+}
+
+label{
+
+  @apply text-[12px]
+}
+
+.signin{
+
+  @apply w-[182px] text-[13px]
+}
+
+.signin p{
+  @apply lg:text-[13px] text-[10px]
+}
+.search{
+@apply px-[14px] mt-[20px] h-[36px] flex justify-between w-[320px]
+   items-center
+}
+.dashboard_btn{
+  @apply text-[white]
+  h-[36px]
+  bg-[#32D583]
+  rounded-[8px] px-[14px] py-[8px] text-[14px]
+}
+.documentation{
+  @apply gap-[12px] flex items-center text-[14px] px-[8px] text-[#32D583]
+}
+
+.pagination{
+
+  @apply  py-[6px] px-[12px] rounded-[4.8px] bg-[#F5F5F5]
+}
+body {
+
+  min-height: 100vh;
+}
+
+.login-card{
+  border-radius: 8px;
+border: 1px solid #E6E7EC;
+background: var(--White, #FFF);
+}
+
+.search{
+  border-radius: 8px;
+border: 1px solid #E6E7EC;
+background: var(--White, #FFF);
+}

@@ -1,0 +1,76 @@
+.input{
+
+  border-radius: 8px;
+border: 1px solid var(--gray-300, #D0D5DD);
+background: var(--White, #FFF);
+}
+
+
+
+
+.btn1{
+  border-radius: 8px;
+border: 1px solid var(--Brand-Color, #32D583);
+background: var(--Brand-Color, #32D583);
+
+}
+
+.signin{
+
+  border-radius: 8px;
+border: 1px solid var(--gray-300, #D0D5DD);
+background: var(--White, #FFF);
+
+
+}
+.flow{
+  border-radius: 6px;
+background: rgba(24, 24, 27, 0.05);
+}
+
+.input-place::placeholder{
+
+  font-size: 12px;
+}
+
+.status{
+  color: #32D583;
+  font: 500;
+  border-radius: 4px;
+background: var(--Success-50, #ECFDF3);
+font-size: 10px;
+padding: 6px 10px 6px 10px;
+}
+
+.box{
+  border-radius: 4px;
+background: #FFF;
+box-shadow: 1px 4px 12px 0px rgba(0, 0, 0, 0.19);
+}
+
+.hov{
+  border-radius: 4px;
+  background: var(--Success-50, #ECFDF3);
+  width: 174px;
+  color: #32D583;
+  cursor: pointer;
+}
+
+.hov2:hover{
+  border-radius: 4px;
+  background: var(--Success-50, #ECFDF3);
+  width: 174px;
+  color: #32D583;
+  padding: 6px 3px 6px 3px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  height: 32px;
+}
+
+.hov{
+  height: 32px;
+}
+
+
+
+
