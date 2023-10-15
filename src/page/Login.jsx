@@ -90,7 +90,7 @@ const Login = () => {
       <div className="lg:flex lg:justify-center pt-[21px] ">
         <div className="login-card  relative p-[30px] flex flex-col  border-2 ">
           <div className="text-center">
-            <h1 className="text-[24px] text-[#101828]">Welcome back!</h1>
+            <h1 className="text-[24px] text-[#101828] font-medium">Welcome back!</h1>
             <p className="text-[14px] text-[#828282]">
               Sign in to access your account
             </p>
