@@ -9,7 +9,7 @@ const Login = () => {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(""); // Add success state
  
-  const [showPassword, setShowPassword] = useState(false);
+  const [showPassword, setShowPassword] = useState(true);
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
