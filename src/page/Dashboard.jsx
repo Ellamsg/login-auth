@@ -446,7 +446,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="bottom-[21px] flex lg:absolute  flex-col gap-[23px] ">
+          <div className=" flex lg:absolute  flex-col gap-[23px] ">
             <div className="documentation">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -543,8 +543,8 @@ const Dashboard = () => {
                     }`}
                     key={data.id}
                   >
-                    <p className="text-[12px]">{data.name}</p>
-                    <p className="text-[12px]">{data.date}</p>
+                    <p className="text-[12px] text-[#34373F]">{data.name}</p>
+                    <p className="text-[12px] text-[#34373F]" >{data.date}</p>
 
                     <div className="flex items-center justify-between w-[23%]">
                      
