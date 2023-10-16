@@ -52,6 +52,7 @@ const Login = () => {
         }
       );
 
+
       if (response.status === 200) {
         // Login was successful, show a success message
         setSuccess("Login successful! Redirecting...");
@@ -137,7 +138,7 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
-   <button  onClick={togglePasswordVisibility}>
+         <button  onClick={togglePasswordVisibility}>
 
    {showPassword ?
               <svg

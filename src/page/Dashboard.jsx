@@ -29,7 +29,7 @@ const Dashboard = () => {
         <div className="bg-[#E6E7EC] absolute w-[84%] right-0 h-[1px]  mt-[13px]"></div>
       </div>
 
-      <div className="lg:flex lg:px-[30px] px-[20px] flex-row pt-[13px] h-[1000px]">
+      <div className="lg:flex lg:px-[30px] px-[20px] flex-row pt-[13px] ">
         <div className="sm:hidden">
           <button onClick={toggleMobileMenu} className="text-green mt-3 text-">
             <svg
@@ -446,7 +446,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="bottom-[135px] flex lg:absolute  flex-col gap-[23px] ">
+          <div className="bottom-[21px] flex lg:absolute  flex-col gap-[23px] ">
             <div className="documentation">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -524,7 +524,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className=" py-[20px] border-[1px] relative border-[#E6E7EC] rounded-[8px] h-[400px] lg:h-[760px] my-[30px] ">
+          <div className=" py-[20px] border-[1px] relative border-[#E6E7EC] rounded-[8px] h-[400px] lg:h-[460px] my-[30px] ">
             <div className="flex text-[12px] px-[24px] text-[#828282] 3xl:w-[80%] 2xl:w-[80.7%] w-[92%] md:w-[81%] justify-between">
               <p>Name</p>
               <p className=" w-full text-center md:pl-[50px] pl-5  2xl:pl-[52px]">Creation Date</p>
